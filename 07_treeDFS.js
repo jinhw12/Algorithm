@@ -1,13 +1,10 @@
 let dfs = function (node) {
   let res = [node.value];
-  console.log(res);
   if (node.children) {
     for (let i = 0; i < node.children.length; i++) {
-      console.log(res);
       res = res.concat(dfs(node.children[i]));
     }
   }
-  console.log(res);
   return res;
 };
 
