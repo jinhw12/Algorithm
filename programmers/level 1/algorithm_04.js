@@ -54,8 +54,15 @@ console.log(
     [24, 90, 94, 75, 65],
   ])
 );
-// let output2 = solution([[50, 90], [50, 87]]);
-// console.log(output2); // -> "DA"
+let output2 = solution([
+  [50, 90],
+  [50, 87],
+]);
+console.log(output2); // -> "DA"
 
-// let output3 = solution([[70, 49, 90], [68, 50, 38], [73, 31, 100]]);
-// console.log(output3); // -> "CFD"
+let output3 = solution([
+  [70, 49, 90],
+  [68, 50, 38],
+  [73, 31, 100],
+]);
+console.log(output3); // -> "CFD"
